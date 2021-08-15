@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6045158095280710407}
-  - component: {fileID: 4026148112255209135}
   - component: {fileID: 3865354915014966568}
-  m_Layer: 0
+  - component: {fileID: 8744745452584589091}
+  m_Layer: 6
   m_Name: Bullet_Classic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33,19 +33,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4026148112255209135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3896425780743707883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c239424ba8bcf1448a96cae46d97462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_skin: {fileID: 7794163935017550971}
 --- !u!54 &3865354915014966568
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -62,6 +49,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &8744745452584589091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3896425780743707883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf91f7664073374f9db69229376046d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_skin: {fileID: 7794163935017550971}
+  m_datas: {fileID: 11400000, guid: 59cfef2f6ffe73242b698ab0255d1f94, type: 2}
 --- !u!1 &8209953985024345908
 GameObject:
   m_ObjectHideFlags: 0
@@ -74,7 +75,7 @@ GameObject:
   - component: {fileID: 6723679198462260833}
   - component: {fileID: 7794163935017550971}
   - component: {fileID: 2088964384289023562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Skin
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7008127487440754883}
   - component: {fileID: 6398503626813885118}
   - component: {fileID: 3860341827640716929}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlayerSkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 3503131706345816128}
   - component: {fileID: 1822620865785952835}
   - component: {fileID: 999455525381894906}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlayerWeapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 1355924394926227251}
   - component: {fileID: 4915177559016357317}
   - component: {fileID: 3145613253575310849}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlayerCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,8 +258,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InputManager: {fileID: 1355924394926227251}
-  m_horizontalMoveSpeed: 10
-  m_verticalMoveSpeed: 10
+  m_horizontalMoveSpeed: 8
+  m_verticalMoveSpeed: 8
 --- !u!114 &1355924394926227251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,7 +311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5121208258616649031}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BulletSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

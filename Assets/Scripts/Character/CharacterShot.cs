@@ -43,12 +43,12 @@ public class CharacterShot : MonoBehaviour
 
         if (selectedBullet != null)
         {
-            Bullet bulletComp = selectedBullet.GetComponent<Bullet>();
+            BulletBehavior bulletComp = selectedBullet.GetComponent<BulletBehavior>();
 
             selectedBullet.transform.position = m_BulletStartPoint.position;
             selectedBullet.transform.rotation = m_BulletStartPoint.rotation;
             selectedBullet.SetActive(true);
-            bulletComp.SetVelocity(3f);
+            bulletComp.SetVelocity();
             m_currentShotCooldown = m_CurrentWeapon.m_ShotSpeed;
         }
     }
